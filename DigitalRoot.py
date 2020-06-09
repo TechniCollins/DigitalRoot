@@ -1,13 +1,7 @@
 
 """DIGITAL ROOT AND ADDITIVE PERSISTANCE: 
-This is challenge 001 of my wednesday challenges YouTube series.
-CHALLENGE DIFFICULTY:
-Super Eazy :)
-CONTEXT:
 Digital root is the single digit obtained after recursive sum of all the digits in a number.
 This simple python function finds the digital root of a number"""
-
-#Check out my YouTube video concerning DigitalRoot
 
 def DigitalRoot(number):
 	addper = 0
@@ -19,14 +13,10 @@ def DigitalRoot(number):
 	print(number)
 DigitalRoot(895)
 
-"""SOLUTION TO YOUR CHALLENGE:
-I challenged my viewers to find digital root using the modulo operator.
-Here's a super simple, super basic solution, for beginners"""
+"""ALTERNATIVE SOLUTION:"""
 userNumber= 674
 rootResult = userNumber % 9
 if rootResult == 0:
 	print(9)
 else:
 	print(rootResult)
-"""CODE CONTRIBUTED BY Collins Upendo from Technicollins.
-Subscribe to my YouTube channel for more challenges every wednesday"""
